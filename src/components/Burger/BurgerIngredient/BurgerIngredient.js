@@ -6,7 +6,6 @@ import classes from "./BurgerIngredient.css";
 class BurgerIngredient extends Component {
   render() {
     let ingredient = null;
-    console.log(classes);
     switch (this.props.type) {
       case "bread-bottom":
         ingredient = <div className={classes.BreadBottom} />;
